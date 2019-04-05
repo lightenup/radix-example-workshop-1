@@ -1,7 +1,7 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: echo
+  name: sh-aj-echo
 spec:
   environments:
     - name: production
@@ -54,3 +54,4 @@ spec:
   dnsAppAlias:
     environment: production
     component: www
+    
